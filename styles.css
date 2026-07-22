@@ -1,6 +1,4 @@
-/* ==========================================================================
-   1. GLOBAL VARIABLES & RESET
-   ========================================================================== */
+/*1. GLOBAL VARIABLES & RESET*/
 :root {
     --bg-color: #080c14;
     --card-bg: rgba(13, 19, 34, 0.75);
@@ -42,9 +40,8 @@ body {
     pointer-events: none;
 }
 
-/* ==========================================================================
-   2. REUSABLE GLASS COMPONENTS & TYPOGRAPHY
-   ========================================================================== */
+/*2. REUSABLE GLASS COMPONENTS & TYPOGRAPHY*/
+
 .glass-card {
     background: var(--card-bg);
     border: 1px solid var(--border-color);
@@ -88,9 +85,8 @@ section {
     width: 100%;
 }
 
-/* ==========================================================================
-   3. HEADER & NAVIGATION
-   ========================================================================== */
+/*3. HEADER & NAVIGATION*/
+
 header {
     position: fixed;
     top: 0;
@@ -142,9 +138,7 @@ header {
     color: var(--cyan-glow);
 }
 
-/* ==========================================================================
-   4. HERO SECTION
-   ========================================================================== */
+/*4. HERO SECTION*/
 #hero {
     min-height: 100vh;
     display: flex;
@@ -233,9 +227,8 @@ header {
     transform: translateY(-2px);
 }
 
-/* ==========================================================================
-   5. ABOUT SECTION
-   ========================================================================== */
+/*5. ABOUT SECTION*/
+
 .about-grid {
     display: grid;
     grid-template-columns: 1.8fr 1fr;
@@ -318,9 +311,8 @@ header {
 .corner-bl { bottom: 0; left: 0; border-width: 0 0 2px 2px; }
 .corner-br { bottom: 0; right: 0; border-width: 0 2px 2px 0; }
 
-/* ==========================================================================
-   6. SKILLS & METRICS SECTIONS
-   ========================================================================== */
+/*6. SKILLS & METRICS SECTIONS*/
+
 .skills-grid, .metrics-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -362,9 +354,7 @@ header {
     color: var(--text-muted);
 }
 
-/* ==========================================================================
-   7. PROJECTS SECTION
-   ========================================================================== */
+/*7. PROJECTS SECTION*/
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -472,9 +462,7 @@ header {
     color: #fff;
 }
 
-/* ==========================================================================
-   8. CONTACT SECTION
-   ========================================================================== */
+/*8. CONTACT SECTION*/
 .contact-grid {
     display: grid;
     grid-template-columns: 1fr 1.2fr;
@@ -590,15 +578,13 @@ header {
     color: var(--cyan-glow);
 }
 
-/* ==========================================================================
-   9. FOOTER & RESPONSIVE DESIGN
-   ========================================================================== */
+/*9. FOOTER & RESPONSIVE DESIGN*/
 footer {
-    text-align: center;
+    text-align: left;
     padding: 2rem;
-    font-family: var(--font-code);
+    font-family: var(--cyan-glow);
     font-size: 0.85rem;
-    color: var(--text-muted);
+    color: turquoise;
     border-top: 1px solid var(--border-color);
 }
 
