@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fullstack Developer & Designer</title>
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Orbitron:wght@500;700;900&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Particle Canvas Background -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="nav-container">
+            <a href="#hero" class="logo">MY <span class="glow-text">Portifolio!</span></a>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#cpm" class="nav-link">Metrics</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content fade-in">
+            <div class="terminal-badge">[ STATUS:SYSTEM READY ]</div>
+            <h1 class="hero-title">Ndirangu Vivian Watetu</h1>
+            <p class="typewriter-text"><span id="typewriter"></span><span class="cursor">|</span></p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-code"></i> Explore Projects</a>
+                <a href="#contact" class="btn btn-cyber"><i class="fa-solid fa-terminal"></i> Work with Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="scroll-reveal">
+        <div class="section-header">
+            <h2 class="section-title">01. ABOUT ME</h2>
+            <div class="glow-line"></div>
+        </div>
+        <div class="about-grid">
+            <div class="about-text glass-card">
+                <p class="highlight-text">INITIALIZING PERSONAL DATA PROFILE...</p>
+                <p>Hello! I am <strong>Vivian Watetu</strong>, a 20-year-old Computer Science student, Full Stack Web Developer, and UI/UX Designer driven by a relentless urge to learn and innovate.</p>
+                <p>I bring a highly detail-oriented mindset to every line of code and user experience I craft. While continuously mastering advanced computer science principles, system architectures, and modern web frameworks, I specialize in engineering seamless web applications from initial database design to production deployment.</p>
+                <p>Bridging modern full stack web development with analytical precision, I focus on building robust, scalable applications that deliver real impact. With expertise spanning front end interface design, server side integration, and database management, I aim to develop technology solutions that are as performant under the hood as they are intuitive for the user</p>
+            </div>
+            <div class="about-image-wrapper">
+                <div class="cyber-frame">
+                    <div class="corner-tl"></div>
+                    <div class="corner-tr"></div>
+                    <div class="corner-bl"></div>
+                    <div class="corner-br"></div>
+                    <img src="images/Portifolio.jpeg" alt="Vivian Watetu" onerror="this.onerror=null; this.src='https://via.placeholder.com/400x480/0d1322/00f0ff?text=Vivian+Watetu';">
+                    <div class="scanline"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="scroll-reveal">
+        <div class="section-header">
+            <h2 class="section-title">02. TECH STACK CORE</h2>
+            <div class="glow-line"></div>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card glass-card">
+                <div class="skill-icon"><i class="fa-brands fa-react"></i></div>
+                <h3>Frontend Engineering</h3>
+                <p>HTML5, CSS3, JavaScript (ES6+), React.js, Tailwind CSS, Dynamic UI Animations.</p>
+            </div>
+            <div class="skill-card glass-card">
+                <div class="skill-icon"><i class="fa-brands fa-node-js"></i></div>
+                <h3>Backend Systems</h3>
+                <p>Node.js, Express.js, REST API Architecture, Server-side Logic & Authentication.</p>
+            </div>
+            <div class="skill-card glass-card">
+                <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
+                <h3>Database Creation</h3>
+                <p>SQL Modeling, PostgreSQL, Supabase, Relational Database Engineering & Management.</p>
+            </div>
+            <div class="skill-card glass-card">
+                <div class="skill-icon"><i class="fa-solid fa-server"></i></div>
+                <h3>Hosting & Operations</h3>
+                <p>Railway, Vercel, Netlify, Custom Domain Setup, Automated CI/CD Pipelines.</p>
+            </div>
+            <div class="skill-card glass-card">
+                <div class="skill-icon"><i class="fa-solid fa-chart-line"></i></div>
+                <h3>SEO & Search Console</h3>
+                <p>Google Search Console Optimization, Technical Site Indexing, Performance & Traffic Analytics.</p>
+            </div>
+            <div class="skill-card glass-card">
+                <div class="skill-icon"><i class="fa-brands fa-git-alt"></i></div>
+                <h3>Developer Workflow</h3>
+                <p>Git / GitHub Version Control, Terminal Execution, UI/UX Wireframing (Figma).</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CPM & Web Metrics Section -->
+    <section id="cpm" class="scroll-reveal">
+        <div class="section-header">
+            <h2 class="section-title">03. METRICS & CPM OPTIMIZATION</h2>
+            <div class="glow-line"></div>
+        </div>
+        <div class="metrics-grid">
+            <div class="metric-card glass-card">
+                <div class="metric-value counter" data-target="98">0</div>
+                <div class="metric-label">Lighthouse Performance</div>
+                <p>Overall Google quality and speed rating</p>
+            </div>
+            <div class="metric-card glass-card">
+                <div class="metric-value">0.8s</div>
+                <div class="metric-label">First Contentful Paint</div>
+                <P>Time until the first visual content appears</P>
+            </div>
+            <div class="metric-card glass-card">
+                <div class="metric-value">99.9%</div>
+                <div class="metric-label">System Uptime</div>
+                <p>Reliable hosting and low server downtime</p>
+            </div>
+             <div class="metric-card glass-card">
+                <div class="metric-value">0.01</div>
+                <div class="metric-label">Cumulative Layout Shift</div>
+                <p>Visual Stability (no annoying screen jumps)</p>
+            </div>
+             <div class="metric-card glass-card">
+                <div class="metric-value">100%</div>
+                <div class="metric-label">Clean code/ SEO</div>
+                <p>Adheres to modern web standards and accessibility</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="scroll-reveal">
+        <div class="section-header">
+            <h2 class="section-title">04. PROJECTS</h2>
+            <div class="glow-line"></div>
+        </div>
+        <div class="projects-grid">
+            
+            <!-- Project 1: Platinum Liquors -->
+            <div class="project-card glass-card">
+                <div class="project-header">
+                    <i class="fa-regular fa-folder-open folder-icon"></i>
+                    <div class="project-links">
+                        <a href="https://github.com/vivianwatetu/platinum-liquors" target="_blank" title="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://platinumliquors.com" target="_blank" title="Live Preview"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <h3 class="project-title">Platinum Liquors</h3>
+                <p class="project-desc">A full-stack e-commerce application featuring checkout handling, responsive user interface design, SQL database management, and Google Search Console indexing for optimal web visibility.</p>
+                <div class="project-tags">
+                    <span>JavaScript</span>
+                    <span>Node.js</span>
+                    <span>SQL</span>
+                    <span>SEO</span>
+                </div>
+                <div class="project-actions">
+                    <a href="https://platinum-liquor-production.up.railway.app" target="_blank" class="project-btn"><i class="fa-solid fa-globe"></i> Live App</a>
+                    <a href="https://github.com/SkylerVee/Platinum-Liquor.git" target="_blank" class="project-btn project-btn-sub"><i class="fa-brands fa-github"></i>GitHub</a>
+                </div>
+            </div>
+
+            <!-- Project 2: Subscription Platform -->
+            <div class="project-card glass-card">
+                <div class="project-header">
+                    <i class="fa-regular fa-folder-open folder-icon"></i>
+                    <div class="project-links">
+                        <a href="https://github.com/SkylerVee/Mercy--Beauty.git" target="_blank" title="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://skylervee.github.io/Mercy--Beauty/" target="_blank" title="Live Preview"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <h3 class="project-title">Nailed by Mercy</h3>
+                <p class="project-desc">A simple Website for a local Nails business, utilizing skills like Detail oriented Web design and profficenct frontend</p>
+                <div class="project-tags">
+                    <span>HTML5</span>
+                    <span>Reacts</span>
+                    <span>CSS</span>
+                </div>
+                <div class="project-actions">
+                    <a href="https://skylervee.github.io/Mercy--Beauty/" target="_blank" class="project-btn"><i class="fa-solid fa-globe"></i> Live App</a>
+                    <a href="https://github.com/SkylerVee/Mercy--Beauty.git" target="_blank" class="project-btn project-btn-sub"><i class="fa-brands fa-github"></i>GitHub</a>
+                </div>
+            </div>
+
+            <!-- Project 3: Storytelling Experience -->
+            <div class="project-card glass-card">
+                <div class="project-header">
+                    <i class="fa-regular fa-folder-open folder-icon"></i>
+                    <div class="project-links">
+                        <a href="https://github.com/vivianwatetu/portifolio" target="_blank" title="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://your-story-ui.railways.app" target="_blank" title="Live Preview"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <h3 class="project-title">Portifolio Website</h3>
+                <p class="project-desc">A high-performance, responsive web application engineered to showcase full-stack projects, UI/UX design capabilities, and core technical skills. Built with modern HTML5, CSS3, and JavaScript, featuring smooth keyframe animations, dynamic particle backgrounds, glassmorphism UI architecture, and search engine optimization (SEO) best practices.<th></th></p>
+                <div class="project-tags">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    <span>UI/UX</span>
+                </div>
+                <div class="project-actions">
+                    <a href="https://your-story-ui.vercel.app" target="_blank" class="project-btn"><i class="fa-solid fa-globe"></i> Live App</a>
+                    <a href="https://github.com/vivianwatetu/story-narrative-ui" target="_blank" class="project-btn project-btn-sub"><i class="fa-brands fa-github"></i> GitHub</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="scroll-reveal">
+        <div class="section-header">
+            <h2 class="section-title">05. TRANSMIT MESSAGE</h2>
+            <div class="glow-line"></div>
+        </div>
+        <div class="contact-grid">
+            <div class="contact-info glass-card">
+                <h3>Work with me.</h3>
+                <p>Available for engineering roles, freelance builds, and technology collaborations.</p>
+                
+                <div class="contact-methods">
+                    <div class="method-item">
+                        <i class="fa-solid fa-terminal"></i>
+                        <span>watetuvivian@gmail.com</span>
+                    </div>
+                    <div class="method-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+254795499535</span>
+                    </div>
+                </div>
+
+                <div class="social-grid">
+                    <a href="https://www.linkedin.com/in/vivian-watetu-52562b350?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="social-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://wa.me/254795499535" target="_blank" class="social-btn" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://tiktok.com/@skyler_vivian12" target="_blank" class="social-btn" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://instagram.com/she.is_skyler/" target="_blank" class="social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+
+          <form id="cyber-contact-form" class="glass-card" action="https://formspree.io/f/xgoglalr" method="POST">
+    <div class="input-group">
+        <input type="text" name="name" id="name" required placeholder=" ">
+        <label for="name">Full Name</label>
+    </div>
+    <div class="input-group">
+        <input type="email" name="email" id="email" required placeholder=" ">
+        <label for="email">E-mail</label>
+    </div>
+    <div class="input-group">
+        <textarea name="message" id="message" rows="4" required placeholder=" "></textarea>
+        <label for="message">Type your message here...</label>
+    </div>
+    <button type="submit" class="btn btn-primary" style="width: 100%;"><i class="fa-solid fa-paper-plane"></i> Send</button>
+</form>
+
+    </section>
+
+    <footer>
+        <p>@2026 Vivian Watetu Engineered with Cyber Precision.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
